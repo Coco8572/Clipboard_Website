@@ -1,4 +1,3 @@
-/** @type {import('tailwindcss').Config} */
 module.exports = {
     content: ["./*.html"],
     theme: {
@@ -8,7 +7,6 @@ module.exports = {
             lg: "976px",
             xl: "1440px",
         },
-
         extend: {
             colors: {
                 strongCyan: "hsl(171, 66%, 44%)",
